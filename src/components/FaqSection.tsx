@@ -8,23 +8,23 @@ const FaqSection = () => {
   const faqs = [
     {
       question: 'What is an online casino?',
-      answer: 'An online casino is a digital platform that allows users to play casino games and place wagers over the internet. These platforms offer many of the same games found in traditional brick-and-mortar casinos, including slots, table games like blackjack and roulette, video poker, and in many cases, live dealer games streamed in real-time.'
+      answer: "An online casino is a digital platform that allows users to play casino games and place wagers over the internet. These platforms offer many of the same games found in traditional brick-and-mortar casinos, including slots, table games like blackjack and roulette, video poker, and in many cases, live dealer games streamed in real-time."
     },
     {
       question: 'How do online casinos work?',
-      answer: 'Online casinos work by using random number generator (RNG) software to ensure fair and unpredictable game outcomes. Players create accounts, deposit funds using various payment methods, and then use those funds to place bets on games. Winnings are credited to the player's account and can be withdrawn subject to the casino's terms and conditions.'
+      answer: "Online casinos work by using random number generator (RNG) software to ensure fair and unpredictable game outcomes. Players create accounts, deposit funds using various payment methods, and then use those funds to place bets on games. Winnings are credited to the player's account and can be withdrawn subject to the casino's terms and conditions."
     },
     {
       question: 'Are online casinos safe?',
-      answer: 'Licensed and regulated online casinos are safe to use. In the UK, online casinos must be licensed by the UK Gambling Commission, which enforces strict standards for player protection, fair gaming, and responsible gambling measures. Always check for a valid gambling license, secure connections (https), strong privacy policies, and read independent reviews before signing up.'
+      answer: "Licensed and regulated online casinos are safe to use. In the UK, online casinos must be licensed by the UK Gambling Commission, which enforces strict standards for player protection, fair gaming, and responsible gambling measures. Always check for a valid gambling license, secure connections (https), strong privacy policies, and read independent reviews before signing up."
     },
     {
       question: 'What games can I play at online casinos?',
-      answer: 'Online casinos offer a wide variety of games including slot machines, table games (blackjack, roulette, baccarat, poker), video poker, specialty games (keno, bingo, scratch cards), and live dealer games where real dealers run the games via video stream. The selection varies by casino, with some offering thousands of different games.'
+      answer: "Online casinos offer a wide variety of games including slot machines, table games (blackjack, roulette, baccarat, poker), video poker, specialty games (keno, bingo, scratch cards), and live dealer games where real dealers run the games via video stream. The selection varies by casino, with some offering thousands of different games."
     },
     {
       question: 'How do I make deposits and withdrawals?',
-      answer: 'Most online casinos accept various payment methods including debit cards, e-wallets (PayPal, Skrill, Neteller), bank transfers, and prepaid cards. To deposit, log into your account, visit the cashier section, select your preferred payment method, and follow the instructions. Withdrawals work similarly but may require identity verification and have longer processing times.'
+      answer: "Most online casinos accept various payment methods including debit cards, e-wallets (PayPal, Skrill, Neteller), bank transfers, and prepaid cards. To deposit, log into your account, visit the cashier section, select your preferred payment method, and follow the instructions. Withdrawals work similarly but may require identity verification and have longer processing times."
     }
   ];
 
