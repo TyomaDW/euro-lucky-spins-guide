@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Badge } from '@/components/ui/badge';
 import { Star } from 'lucide-react';
@@ -139,28 +140,21 @@ const CasinoShowcase = () => {
 
           {/* Casino Item 4 */}
           <div className="casino-item relative grid grid-cols-12 gap-3 p-4 items-center text-center bg-white rounded-lg shadow-md text-sm border border-yellow-400">
-
             {/* Ribbon */}
-            <div className="absolute top-0 left-0 bg-red-700 text-white text-[10px] font-semibold px-2 py-1"
-              style={{ clipPath: "polygon(0 0, calc(100% - 8px) 0, 100% 50%, calc(100% - 8px) 100%, 0 100%)" }}>
+            <div className="absolute top-0 left-0 bg-red-700 text-white text-[10px] font-semibold px-2 py-1" style={{ clipPath: "polygon(0 0, calc(100% - 8px) 0, 100% 50%, calc(100% - 8px) 100%, 0 100%)" }}>
               FAST WITHDRAWALS
             </div>
 
             <div className="col-span-12 md:col-span-4 flex items-center justify-center md:justify-start space-x-4">
-              <div
-                className="col-span-6 md:col-span-2 score-info flex flex-col items-center justify-center md:border-none border-r pr-2 md:pr-0">
-                <span
-                  className="border border-yellow-400 rounded-full text-xl font-semibold w-12 h-12 flex items-center justify-center">4</span>
-
+              <div className="col-span-6 md:col-span-2 score-info flex flex-col items-center justify-center md:border-none border-r pr-2 md:pr-0">
+                <span className="border border-yellow-400 rounded-full text-xl font-semibold w-12 h-12 flex items-center justify-center">4</span>
               </div>
               <a href="https://www.dreamvegas.com/?btag=a_37772b_228c_3100371037096&asys=ia&siteid=37772">
-                <img src="https://resizer.valuetrackbi.com/s3:10bestcasinoscouk/assets/logo-dreamvegas.png/fit-in/?width=1920"
-                  alt="Virgin Games" className="max-w-[120px] mx-auto" />
+                <img src="https://resizer.valuetrackbi.com/s3:10bestcasinoscouk/assets/logo-dreamvegas.png/fit-in/?width=1920" alt="Dream Vegas" className="max-w-[120px] mx-auto" />
               </a>
             </div>
 
-            <a href="https://www.dreamvegas.com/?btag=a_37772b_228c_3100371037096&asys=ia&siteid=37772"
-              className="col-span-12 md:col-span-2 bonus-info md:border-none border-b pb-2 md:pb-0">
+            <a href="https://www.dreamvegas.com/?btag=a_37772b_228c_3100371037096&asys=ia&siteid=37772" className="col-span-12 md:col-span-2 bonus-info md:border-none border-b pb-2 md:pb-0">
               <p className="font-bold text-gray-700">100% Match Bonus Up to £300 + 150 Bonus Spins</p>
               <div className="text-green-500 text-xs">New player offer - T&Cs apply</div>
               <div className="text-xs">18+, Begambleaware.org</div>
@@ -169,18 +163,15 @@ const CasinoShowcase = () => {
             <div className="col-span-12 md:col-span-2 rating-info md:border-none border-b pb-2 md:pb-0">
               <div className="text-yellow-400">⭐⭐⭐⭐⭐</div>
               <p className="text-xs">(38,909 Votes)</p>
-
             </div>
 
-            <a href="https://www.dreamvegas.com/?btag=a_37772b_228c_3100371037096&asys=ia&siteid=37772"
-              className="col-span-6 md:col-span-2 score-info flex flex-col items-center justify-center md:border-none border-r pr-2 md:pr-0">
+            <a href="https://www.dreamvegas.com/?btag=a_37772b_228c_3100371037096&asys=ia&siteid=37772" className="col-span-6 md:col-span-2 score-info flex flex-col items-center justify-center md:border-none border-r pr-2 md:pr-0">
               <span className="score-circle">94</span>
               <span className="text-xs">Our Score</span>
             </a>
 
             <div className="col-span-6 md:col-span-2 visit-site flex flex-col items-center justify-center pl-2 md:pl-0">
-              <a href="https://www.dreamvegas.com/?btag=a_37772b_228c_3100371037096&asys=ia&siteid=37772"
-                className="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full">
+              <a href="https://www.dreamvegas.com/?btag=a_37772b_228c_3100371037096&asys=ia&siteid=37772" className="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full">
                 GET BONUS
               </a>
               <p className="font-bold text-gray-500 text-xs">Min. Deposit - £20</p>
@@ -188,38 +179,22 @@ const CasinoShowcase = () => {
 
             {/* Disclaimer */}
             <div className="col-span-12 text-[10px] text-gray-600 mt-2 px-2">
-              18+. New players only. One offer per player. Max bonus bet £5. Offer: 100% bonus match on 1st
-              deposit + bonus spins.
-              Value of bonus & number of spins depend on deposit amount. Winnings from spins credited as bonus and
-              capped at £100.
-              Bonus funds are separate to Cash funds, and are subject to 35x wagering the total bonus & cash.
-              Terms apply. Please
-              Gamble Responsibly. BeGambleAware.org.
+              18+. New players only. One offer per player. Max bonus bet £5. Offer: 100% bonus match on 1st deposit + bonus spins. Value of bonus & number of spins depend on deposit amount. Winnings from spins credited as bonus and capped at £100. Bonus funds are separate to Cash funds, and are subject to 35x wagering the total bonus & cash. Terms apply. Please Gamble Responsibly. BeGambleAware.org.
             </div>
-
           </div>
 
           {/* Casino Item 5 */}
           <div className="casino-item relative grid grid-cols-12 gap-3 p-4 items-center text-center bg-white rounded-lg shadow-md text-sm border border-yellow-400">
-
-
-
             <div className="col-span-12 md:col-span-4 flex items-center justify-center md:justify-start space-x-4">
-              <div
-                className="col-span-6 md:col-span-2 score-info flex flex-col items-center justify-center md:border-none border-r pr-2 md:pr-0">
-                <span
-                  className="border border-yellow-400 rounded-full text-xl font-semibold w-12 h-12 flex items-center justify-center">5</span>
-
+              <div className="col-span-6 md:col-span-2 score-info flex flex-col items-center justify-center md:border-none border-r pr-2 md:pr-0">
+                <span className="border border-yellow-400 rounded-full text-xl font-semibold w-12 h-12 flex items-center justify-center">5</span>
               </div>
-              <a
-                href="https://welcome.32red.com/150-plus-25-spins-goldblitz/index.html?ch=affiliate&sub_ch=affiliate&campaignId=2949291&btag=320665458_521d70dba1af446ba01f9116e01104b3&sref=source&source=3100371041842&affiliateId=1&pid=97171512&bid=37532">
-                <img src="https://resizer.valuetrackbi.com/s3:10bestcasinoscouk/assets/logo-32red-2.png/fit-in/?width=1920"
-                  alt="Virgin Games" className="max-w-[120px] mx-auto" />
+              <a href="https://welcome.32red.com/150-plus-25-spins-goldblitz/index.html?ch=affiliate&sub_ch=affiliate&campaignId=2949291&btag=320665458_521d70dba1af446ba01f9116e01104b3&sref=source&source=3100371041842&affiliateId=1&pid=97171512&bid=37532">
+                <img src="https://resizer.valuetrackbi.com/s3:10bestcasinoscouk/assets/logo-32red-2.png/fit-in/?width=1920" alt="32Red" className="max-w-[120px] mx-auto" />
               </a>
             </div>
 
-            <a href="https://welcome.32red.com/150-plus-25-spins-goldblitz/index.html?ch=affiliate&sub_ch=affiliate&campaignId=2949291&btag=320665458_521d70dba1af446ba01f9116e01104b3&sref=source&source=3100371041842&affiliateId=1&pid=97171512&bid=37532"
-              className="col-span-12 md:col-span-2 bonus-info md:border-none border-b pb-2 md:pb-0">
+            <a href="https://welcome.32red.com/150-plus-25-spins-goldblitz/index.html?ch=affiliate&sub_ch=affiliate&campaignId=2949291&btag=320665458_521d70dba1af446ba01f9116e01104b3&sref=source&source=3100371041842&affiliateId=1&pid=97171512&bid=37532" className="col-span-12 md:col-span-2 bonus-info md:border-none border-b pb-2 md:pb-0">
               <p className="font-bold text-gray-700">150% Bonus Up to £150 + 25 Super Spins</p>
               <div className="text-green-500 text-xs">New player offer - T&Cs apply</div>
               <div className="text-xs">18+, Begambleaware.org</div>
@@ -228,18 +203,15 @@ const CasinoShowcase = () => {
             <div className="col-span-12 md:col-span-2 rating-info md:border-none border-b pb-2 md:pb-0">
               <div className="text-yellow-400">⭐⭐⭐⭐⭐</div>
               <p className="text-xs">(39,213 Votes)</p>
-
             </div>
 
-            <a href="https://welcome.32red.com/150-plus-25-spins-goldblitz/index.html?ch=affiliate&sub_ch=affiliate&campaignId=2949291&btag=320665458_521d70dba1af446ba01f9116e01104b3&sref=source&source=3100371041842&affiliateId=1&pid=97171512&bid=37532"
-              className="col-span-6 md:col-span-2 score-info flex flex-col items-center justify-center md:border-none border-r pr-2 md:pr-0">
+            <a href="https://welcome.32red.com/150-plus-25-spins-goldblitz/index.html?ch=affiliate&sub_ch=affiliate&campaignId=2949291&btag=320665458_521d70dba1af446ba01f9116e01104b3&sref=source&source=3100371041842&affiliateId=1&pid=97171512&bid=37532" className="col-span-6 md:col-span-2 score-info flex flex-col items-center justify-center md:border-none border-r pr-2 md:pr-0">
               <span className="score-circle">94</span>
               <span className="text-xs">Our Score</span>
             </a>
 
             <div className="col-span-6 md:col-span-2 visit-site flex flex-col items-center justify-center pl-2 md:pl-0">
-              <a href="https://welcome.32red.com/150-plus-25-spins-goldblitz/index.html?ch=affiliate&sub_ch=affiliate&campaignId=2949291&btag=320665458_521d70dba1af446ba01f9116e01104b3&sref=source&source=3100371041842&affiliateId=1&pid=97171512&bid=37532"
-                className="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full">
+              <a href="https://welcome.32red.com/150-plus-25-spins-goldblitz/index.html?ch=affiliate&sub_ch=affiliate&campaignId=2949291&btag=320665458_521d70dba1af446ba01f9116e01104b3&sref=source&source=3100371041842&affiliateId=1&pid=97171512&bid=37532" className="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full">
                 GET BONUS
               </a>
               <p className="font-bold text-gray-500 text-xs">Min. Deposit - £10</p>
@@ -247,35 +219,22 @@ const CasinoShowcase = () => {
 
             {/* Disclaimer */}
             <div className="col-span-12 text-[10px] text-gray-600 mt-2 px-2">
-              Invitation only. New accounts only. Min Deposit £10, 50x Wagering. Claim offer within 7 days, bonus
-              expires after 30
-              days, debit card or instant bank payment only. Game contributions vary, max. stake applies. 18+.
-              BeGambleAware.org.
+              Invitation only. New accounts only. Min Deposit £10, 50x Wagering. Claim offer within 7 days, bonus expires after 30 days, debit card or instant bank payment only. Game contributions vary, max. stake applies. 18+. BeGambleAware.org.
             </div>
-
           </div>
 
           {/* Casino Item 6 */}
           <div className="casino-item relative grid grid-cols-12 gap-3 p-4 items-center text-center bg-white rounded-lg shadow-md text-sm border border-yellow-400">
-
-
-
             <div className="col-span-12 md:col-span-4 flex items-center justify-center md:justify-start space-x-4">
-              <div
-                className="col-span-6 md:col-span-2 score-info flex flex-col items-center justify-center md:border-none border-r pr-2 md:pr-0">
-                <span
-                  className="border border-yellow-400 rounded-full text-xl font-semibold w-12 h-12 flex items-center justify-center">6</span>
-
+              <div className="col-span-6 md:col-span-2 score-info flex flex-col items-center justify-center md:border-none border-r pr-2 md:pr-0">
+                <span className="border border-yellow-400 rounded-full text-xl font-semibold w-12 h-12 flex items-center justify-center">6</span>
               </div>
-              <a
-                href="https://mrq.com/newoffer/200-wager-free-spins/pots200?s1=3100371039273&s2=6_%2Fcompare.html&s3=&click=148557932&affid=2014&campaign=13&gclid=&msclkid=&lpage=9JdFp8&resource=&site=&referrer=https%3A%2F%2F10bestcasinos.co.uk%2F">
-                <img src="https://resizer.valuetrackbi.com/s3:10bestcasinoscouk/assets/logo-mrq-desktop.png/fit-in?width=1920"
-                  alt="Virgin Games" className="max-w-[120px] mx-auto" />
+              <a href="https://mrq.com/newoffer/200-wager-free-spins/pots200?s1=3100371039273&s2=6_%2Fcompare.html&s3=&click=148557932&affid=2014&campaign=13&gclid=&msclkid=&lpage=9JdFp8&resource=&site=&referrer=https%3A%2F%2F10bestcasinos.co.uk%2F">
+                <img src="https://resizer.valuetrackbi.com/s3:10bestcasinoscouk/assets/logo-mrq-desktop.png/fit-in?width=1920" alt="MrQ" className="max-w-[120px] mx-auto" />
               </a>
             </div>
 
-            <a href="https://mrq.com/newoffer/200-wager-free-spins/pots200?s1=3100371039273&s2=6_%2Fcompare.html&s3=&click=148557932&affid=2014&campaign=13&gclid=&msclkid=&lpage=9JdFp8&resource=&site=&referrer=https%3A%2F%2F10bestcasinos.co.uk%2F"
-              className="col-span-12 md:col-span-2 bonus-info md:border-none border-b pb-2 md:pb-0">
+            <a href="https://mrq.com/newoffer/200-wager-free-spins/pots200?s1=3100371039273&s2=6_%2Fcompare.html&s3=&click=148557932&affid=2014&campaign=13&gclid=&msclkid=&lpage=9JdFp8&resource=&site=&referrer=https%3A%2F%2F10bestcasinos.co.uk%2F" className="col-span-12 md:col-span-2 bonus-info md:border-none border-b pb-2 md:pb-0">
               <p className="font-bold text-gray-700">Get 200 Cash Spins - No Wagering On Winnings!</p>
               <div className="text-green-500 text-xs">New player offer - T&Cs apply</div>
               <div className="text-xs">18+, Begambleaware.org</div>
@@ -284,18 +243,15 @@ const CasinoShowcase = () => {
             <div className="col-span-12 md:col-span-2 rating-info md:border-none border-b pb-2 md:pb-0">
               <div className="text-yellow-400">⭐⭐⭐⭐⭐</div>
               <p className="text-xs">(57,188 Votes)</p>
-
             </div>
 
-            <a href="https://mrq.com/newoffer/200-wager-free-spins/pots200?s1=3100371039273&s2=6_%2Fcompare.html&s3=&click=148557932&affid=2014&campaign=13&gclid=&msclkid=&lpage=9JdFp8&resource=&site=&referrer=https%3A%2F%2F10bestcasinos.co.uk%2F"
-              className="col-span-6 md:col-span-2 score-info flex flex-col items-center justify-center md:border-none border-r pr-2 md:pr-0">
+            <a href="https://mrq.com/newoffer/200-wager-free-spins/pots200?s1=3100371039273&s2=6_%2Fcompare.html&s3=&click=148557932&affid=2014&campaign=13&gclid=&msclkid=&lpage=9JdFp8&resource=&site=&referrer=https%3A%2F%2F10bestcasinos.co.uk%2F" className="col-span-6 md:col-span-2 score-info flex flex-col items-center justify-center md:border-none border-r pr-2 md:pr-0">
               <span className="score-circle">93</span>
               <span className="text-xs">Our Score</span>
             </a>
 
             <div className="col-span-6 md:col-span-2 visit-site flex flex-col items-center justify-center pl-2 md:pl-0">
-              <a href="https://mrq.com/newoffer/200-wager-free-spins/pots200?s1=3100371039273&s2=6_%2Fcompare.html&s3=&click=148557932&affid=2014&campaign=13&gclid=&msclkid=&lpage=9JdFp8&resource=&site=&referrer=https%3A%2F%2F10bestcasinos.co.uk%2F"
-                className="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full">
+              <a href="https://mrq.com/newoffer/200-wager-free-spins/pots200?s1=3100371039273&s2=6_%2Fcompare.html&s3=&click=148557932&affid=2014&campaign=13&gclid=&msclkid=&lpage=9JdFp8&resource=&site=&referrer=https%3A%2F%2F10bestcasinos.co.uk%2F" className="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full">
                 GET BONUS
               </a>
               <p className="font-bold text-gray-500 text-xs">Min. Deposit - £10</p>
@@ -303,27 +259,173 @@ const CasinoShowcase = () => {
 
             {/* Disclaimer */}
             <div className="col-span-12 text-[10px] text-gray-600 mt-2 px-2">
-              New customers only. Up to 200 spins over 4 day period from first deposit & spend of £10. Max 50
-              spins each day on
-              Fishin' BIGGER Pots of Gold at 10p per spin for 4 consecutive days. Deposit & spend £10 each day for
-              50 spins. Spins
-              credited upon spend of £10 each day. 18+ Full T&Cs apply.
+              New customers only. Up to 200 spins over 4 day period from first deposit & spend of £10. Max 50 spins each day on Fishin' BIGGER Pots of Gold at 10p per spin for 4 consecutive days. Deposit & spend £10 each day for 50 spins. Spins credited upon spend of £10 each day. 18+ Full T&Cs apply.
             </div>
-
           </div>
 
           {/* Casino Item 7 */}
           <div className="casino-item relative grid grid-cols-12 gap-3 p-4 items-center text-center bg-white rounded-lg shadow-md text-sm border border-yellow-400">
-
-
-
             <div className="col-span-12 md:col-span-4 flex items-center justify-center md:justify-start space-x-4">
-              <div
-                className="col-span-6 md:col-span-2 score-info flex flex-col items-center justify-center md:border-none border-r pr-2 md:pr-0">
-                <span
-                  className="border border-yellow-400 rounded-full text-xl font-semibold w-12 h-12 flex items-center justify-center">7</span>
-
+              <div className="col-span-6 md:col-span-2 score-info flex flex-col items-center justify-center md:border-none border-r pr-2 md:pr-0">
+                <span className="border border-yellow-400 rounded-full text-xl font-semibold w-12 h-12 flex items-center justify-center">7</span>
               </div>
-              <a
-                href="https://promo.boylesports.com/gaming/promo1/game22?btag=51640|5170f346096f43c1a8fec756bc73d646&ppc=3100371039525">
-                <img src="https://resizer.valuetrackbi.com/s3:10bestcasinoscouk/assets/logo-boylesportscasino-desktop3.webp/fit-in/?width=1920"
+              <a href="https://promo.boylesports.com/gaming/promo1/game22?btag=51640|5170f346096f43c1a8fec756bc73d646&ppc=3100371039525">
+                <img src="https://resizer.valuetrackbi.com/s3:10bestcasinoscouk/assets/logo-boylesportscasino-desktop3.webp/fit-in/?width=1920" alt="Boylesports" className="max-w-[120px] mx-auto" />
+              </a>
+            </div>
+
+            <a href="https://promo.boylesports.com/gaming/promo1/game22?btag=51640|5170f346096f43c1a8fec756bc73d646&ppc=3100371039525" className="col-span-12 md:col-span-2 bonus-info md:border-none border-b pb-2 md:pb-0">
+              <p className="font-bold text-gray-700">£50 Casino Bonus + £1K Top Prize</p>
+              <div className="text-green-500 text-xs">New player offer - T&Cs apply</div>
+              <div className="text-xs">18+, Begambleaware.org</div>
+            </a>
+
+            <div className="col-span-12 md:col-span-2 rating-info md:border-none border-b pb-2 md:pb-0">
+              <div className="text-yellow-400">⭐⭐⭐⭐⭐</div>
+              <p className="text-xs">(8,299 Votes)</p>
+            </div>
+
+            <a href="https://promo.boylesports.com/gaming/promo1/game22?btag=51640|5170f346096f43c1a8fec756bc73d646&ppc=3100371039525" className="col-span-6 md:col-span-2 score-info flex flex-col items-center justify-center md:border-none border-r pr-2 md:pr-0">
+              <span className="score-circle">91</span>
+              <span className="text-xs">Our Score</span>
+            </a>
+
+            <div className="col-span-6 md:col-span-2 visit-site flex flex-col items-center justify-center pl-2 md:pl-0">
+              <a href="https://promo.boylesports.com/gaming/promo1/game22?btag=51640|5170f346096f43c1a8fec756bc73d646&ppc=3100371039525" className="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full">
+                GET BONUS
+              </a>
+              <p className="font-bold text-gray-500 text-xs">Min. Deposit - £10</p>
+            </div>
+
+            {/* Disclaimer */}
+            <div className="col-span-12 text-[10px] text-gray-600 mt-2 px-2">
+              18+. Opt in. Once per player. B10G50: Not available with other Casino welcome offers. Min. cash wagering of £10 (cumulative). 24 hrs to accept. 48hrs to stake, 168hrs to play with Bonus. Max. redeemable £500. 40x wagering. Cash balance used until bonus wagering req. complete. Expiry date applies. Min. stake £0.10. T&Cs Apply
+            </div>
+          </div>
+
+          {/* Casino Item 8 */}
+          <div className="casino-item relative grid grid-cols-12 gap-3 p-4 items-center text-center bg-white rounded-lg shadow-md text-sm border border-yellow-400">
+            <div className="col-span-12 md:col-span-4 flex items-center justify-center md:justify-start space-x-4">
+              <div className="col-span-6 md:col-span-2 score-info flex flex-col items-center justify-center md:border-none border-r pr-2 md:pr-0">
+                <span className="border border-yellow-400 rounded-full text-xl font-semibold w-12 h-12 flex items-center justify-center">8</span>
+              </div>
+              <a href="https://www.allbritishcasino.com/en/index">
+                <img src="https://resizer.valuetrackbi.com/s3:10bestcasinoscouk/assets/logo-allbritishcasino.png/fit-in?width=1920" alt="All British Casino" className="max-w-[120px] mx-auto" />
+              </a>
+            </div>
+
+            <a href="https://www.allbritishcasino.com/en/index" className="col-span-12 md:col-span-2 bonus-info md:border-none border-b pb-2 md:pb-0">
+              <p className="font-bold text-gray-700">100% Up to £100 Bonus + 10% Cashback Always!</p>
+              <div className="text-green-500 text-xs">New player offer - T&Cs apply</div>
+              <div className="text-xs">18+, Begambleaware.org</div>
+            </a>
+
+            <div className="col-span-12 md:col-span-2 rating-info md:border-none border-b pb-2 md:pb-0">
+              <div className="text-yellow-400">⭐⭐⭐⭐⭐</div>
+              <p className="text-xs">(24,813 Votes)</p>
+            </div>
+
+            <a href="https://www.allbritishcasino.com/en/index" className="col-span-6 md:col-span-2 score-info flex flex-col items-center justify-center md:border-none border-r pr-2 md:pr-0">
+              <span className="score-circle">89</span>
+              <span className="text-xs">Our Score</span>
+            </a>
+
+            <div className="col-span-6 md:col-span-2 visit-site flex flex-col items-center justify-center pl-2 md:pl-0">
+              <a href="https://www.allbritishcasino.com/en/index" className="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full">
+                GET BONUS
+              </a>
+              <p className="font-bold text-gray-500 text-xs">Min. Deposit - £20</p>
+            </div>
+
+            {/* Disclaimer */}
+            <div className="col-span-12 text-[10px] text-gray-600 mt-2 px-2">
+              Welcome bonus for new players only | Maximum bonus is 100% up to £100 | Min. deposit is £20 | No max cash out | Wagering is 35x bonus | Maximum bet with an active bonus is £5 | Eligibility is restricted for suspected abuse | Cashback is cash with no restrictions | Skrill & Neteller deposits excluded | Cashback applies to deposits where no bonus is included | T&C's apply Gambling is addictive, please gamble responsibly!
+            </div>
+          </div>
+
+          {/* Casino Item 9 */}
+          <div className="casino-item relative grid grid-cols-12 gap-3 p-4 items-center text-center bg-white rounded-lg shadow-md text-sm border border-yellow-400">
+            <div className="col-span-12 md:col-span-4 flex items-center justify-center md:justify-start space-x-4">
+              <div className="col-span-6 md:col-span-2 score-info flex flex-col items-center justify-center md:border-none border-r pr-2 md:pr-0">
+                <span className="border border-yellow-400 rounded-full text-xl font-semibold w-12 h-12 flex items-center justify-center">9</span>
+              </div>
+              <a href="https://www.virginbet.com/promo/a/slots-100-free-spins-Big-Bass-Bonanza-b?siteid=45929">
+                <img src="https://resizer.valuetrackbi.com/s3:10bestcasinoscouk/assets/virginbet-logo.png/fit-in?width=1920" alt="Virgin Bet" className="max-w-[120px] mx-auto" />
+              </a>
+            </div>
+
+            <a href="https://www.virginbet.com/promo/a/slots-100-free-spins-Big-Bass-Bonanza-b?siteid=45929" className="col-span-12 md:col-span-2 bonus-info md:border-none border-b pb-2 md:pb-0">
+              <p className="font-bold text-gray-700">100 Free Spins</p>
+              <div className="text-green-500 text-xs">New player offer - T&Cs apply</div>
+              <div className="text-xs">18+, Begambleaware.org</div>
+            </a>
+
+            <div className="col-span-12 md:col-span-2 rating-info md:border-none border-b pb-2 md:pb-0">
+              <div className="text-yellow-400">⭐⭐⭐⭐⭐</div>
+              <p className="text-xs">(13,009 Votes)</p>
+            </div>
+
+            <a href="https://www.virginbet.com/promo/a/slots-100-free-spins-Big-Bass-Bonanza-b?siteid=45929" className="col-span-6 md:col-span-2 score-info flex flex-col items-center justify-center md:border-none border-r pr-2 md:pr-0">
+              <span className="score-circle">88</span>
+              <span className="text-xs">Our Score</span>
+            </a>
+
+            <div className="col-span-6 md:col-span-2 visit-site flex flex-col items-center justify-center pl-2 md:pl-0">
+              <a href="https://www.virginbet.com/promo/a/slots-100-free-spins-Big-Bass-Bonanza-b?siteid=45929" className="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full">
+                GET BONUS
+              </a>
+              <p className="font-bold text-gray-500 text-xs">Min. Deposit - £10</p>
+            </div>
+
+            {/* Disclaimer */}
+            <div className="col-span-12 text-[10px] text-gray-600 mt-2 px-2">
+              *New members only. Must sign up via this offer link only. Deposit min £10+ cash & wager on any Slot Game within 7 days of sign-up. Accept Free Spins (£0.10p, 7-day expiry) via pop-up within 7 days of qual. Use on Eye of Horus only. T&Cs and deposit exclusions apply. Bet Responsibly. GambleAware.org. 18+
+            </div>
+          </div>
+
+          {/* Casino Item 10 */}
+          <div className="casino-item relative grid grid-cols-12 gap-3 p-4 items-center text-center bg-white rounded-lg shadow-md text-sm border border-yellow-400">
+            <div className="col-span-12 md:col-span-4 flex items-center justify-center md:justify-start space-x-4">
+              <div className="col-span-6 md:col-span-2 score-info flex flex-col items-center justify-center md:border-none border-r pr-2 md:pr-0">
+                <span className="border border-yellow-400 rounded-full text-xl font-semibold w-12 h-12 flex items-center justify-center">10</span>
+              </div>
+              <a href="https://www.lootcasino.com/?rtag=a_12019b_5470377&promocode=MATCHBBB">
+                <img src="https://resizer.valuetrackbi.com/s3:10bestcasinoscouk/assets/logo-lootcasino-desktop2.png/fit-in?width=1920" alt="Loot Casino" className="max-w-[120px] mx-auto" />
+              </a>
+            </div>
+
+            <a href="https://www.lootcasino.com/?rtag=a_12019b_5470377&promocode=MATCHBBB" className="col-span-12 md:col-span-2 bonus-info md:border-none border-b pb-2 md:pb-0">
+              <p className="font-bold text-gray-700">100% Up to £200 Bonus + 20 Free Spins</p>
+              <div className="text-green-500 text-xs">New player offer - T&Cs apply</div>
+              <div className="text-xs">18+, Begambleaware.org</div>
+            </a>
+
+            <div className="col-span-12 md:col-span-2 rating-info md:border-none border-b pb-2 md:pb-0">
+              <div className="text-yellow-400">⭐⭐⭐⭐⭐</div>
+              <p className="text-xs">(21,322 Votes)</p>
+            </div>
+
+            <a href="https://www.lootcasino.com/?rtag=a_12019b_5470377&promocode=MATCHBBB" className="col-span-6 md:col-span-2 score-info flex flex-col items-center justify-center md:border-none border-r pr-2 md:pr-0">
+              <span className="score-circle">88</span>
+              <span className="text-xs">Our Score</span>
+            </a>
+
+            <div className="col-span-6 md:col-span-2 visit-site flex flex-col items-center justify-center pl-2 md:pl-0">
+              <a href="https://www.lootcasino.com/?rtag=a_12019b_5470377&promocode=MATCHBBB" className="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full">
+                GET BONUS
+              </a>
+              <p className="font-bold text-gray-500 text-xs">Min. Deposit - £10</p>
+            </div>
+
+            {/* Disclaimer */}
+            <div className="col-span-12 text-[10px] text-gray-600 mt-2 px-2">
+              New players only, £10 min fund, £200 max matchup bonus, free spin wins credited as bonus, 65x wagering requirements, max bonus conversion to real funds equal to lifetime deposits (up to £250), full T&Cs apply
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default CasinoShowcase;
