@@ -10,7 +10,7 @@ const ResponsibleGambling = () => {
           <a href="https://www.gambleaware.org/home/" target="_blank" rel="noopener noreferrer">
             <img src="/images/compliance/gambleaware.png" alt="GambleAware" className="h-12 w-auto" />
           </a>
-          <img src="/public/images/compliance/18-plus.png" alt="18+" className="h-12 w-auto" />
+          <img src="/images/compliance/18-plus.png" alt="18+" className="h-12 w-auto" />
           <a href="https://www.gamblingtherapy.org/" target="_blank" rel="noopener noreferrer">
             <img src="/images/compliance/gordon-moody.png" alt="Gordon Moody" className="h-12 w-auto" />
           </a>
