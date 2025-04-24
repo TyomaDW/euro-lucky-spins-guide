@@ -51,17 +51,8 @@ const Footer = () => {
             </ul>
           </div>
           
-          {/* Casino Guides */}
-          <div>
-            <h3 className="text-lg font-bold text-white mb-4">Casino Guides</h3>
-            <ul className="space-y-2">
-              <li><Link to="/casino-games" className="text-gray-300 hover:text-casinoYellow transition-colors duration-200">Casino Games</Link></li>
-              <li><Link to="/roulette" className="text-gray-300 hover:text-casinoYellow transition-colors duration-200">Roulette Guide</Link></li>
-              <li><Link to="/slots" className="text-gray-300 hover:text-casinoYellow transition-colors duration-200">Online Slots</Link></li>
-              <li><Link to="/live-casino" className="text-gray-300 hover:text-casinoYellow transition-colors duration-200">Live Casino Guide</Link></li>
-              <li><Link to="/ranking-methodology" className="text-gray-300 hover:text-casinoYellow transition-colors duration-200">How We Rank Casinos</Link></li>
-            </ul>
-          </div>
+         
+         
           
           {/* Newsletter */}
           <div>
