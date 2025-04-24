@@ -6,21 +6,21 @@ import { toast } from "@/components/ui/sonner";
 
 const Footer = () => {
   const [email, setEmail] = useState('');
-  
+
   const handleSubscribe = (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     // Basic email validation
     if (!email || !email.includes('@')) {
       toast.error("Please enter a valid email address");
       return;
     }
-    
+
     // Show success message and clear the form
     toast.success("Thank you for subscribing to our newsletter!");
     setEmail('');
   };
-  
+
   return (
     <footer className="bg-casinoDark-secondary pt-12 pb-6 border-t border-gray-800">
       <div className="container mx-auto px-4">
@@ -33,12 +33,12 @@ const Footer = () => {
               <li><Link to="/contact" className="text-gray-300 hover:text-casinoYellow transition-colors duration-200">Contact</Link></li>
               <li><Link to="/faq" className="text-gray-300 hover:text-casinoYellow transition-colors duration-200">FAQ</Link></li>
               <li><Link to="/privacy" className="text-gray-300 hover:text-casinoYellow transition-colors duration-200">Privacy Policy</Link></li>
-              <li><Link to="/cookie-policy" className="text-gray-300 hover:text-casinoYellow transition-colors duration-200">Cookie Policy</Link></li>
+              <li><Link to="/cookiepolicy" className="text-gray-300 hover:text-casinoYellow transition-colors duration-200">Cookie Policy</Link></li>
               <li><Link to="/disclosure" className="text-gray-300 hover:text-casinoYellow transition-colors duration-200">Disclosure</Link></li>
               <li><Link to="/terms" className="text-gray-300 hover:text-casinoYellow transition-colors duration-200">Terms of Service</Link></li>
             </ul>
           </div>
-          
+
           {/* Top Casinos */}
           <div>
             <h3 className="text-lg font-bold text-white mb-4">Top Casinos</h3>
@@ -50,15 +50,15 @@ const Footer = () => {
               <li><a href="https://www.32red.com/" className="text-gray-300 hover:text-casinoYellow transition-colors duration-200">32Red Casino</a></li>
             </ul>
           </div>
-          
-         
-         
-          
+
+
+
+
           {/* Newsletter */}
           <div>
             <h3 className="text-lg font-bold text-white mb-4">Newsletter</h3>
             <p className="text-gray-300 mb-4 text-sm">Subscribe to get the latest bonus offers, casino reviews and news.</p>
-            
+
             <form onSubmit={handleSubscribe} className="space-y-2">
               <div className="flex items-center border border-gray-700 rounded overflow-hidden">
                 <span className="bg-gray-800 p-2">
@@ -82,17 +82,17 @@ const Footer = () => {
             </form>
           </div>
         </div>
-        
+
         {/* Legal & Disclaimers */}
         <div className="border-t border-gray-800 pt-6 pb-2">
           <p className="text-xs text-gray-400 mb-4">
             <strong>Disclaimer:</strong> This website contains affiliate links. We may receive a commission for purchases made through these links at no additional cost to you. As an affiliate, we only promote brands we trust and believe in. All opinions expressed on this site remain our own.
           </p>
-          
+
           <p className="text-xs text-gray-400 mb-4">
             euluckigiro.eu is committed to responsible gambling. We support responsible gambling and self-exclusion. Gambling is a form of entertainment and should not be viewed as a way to make money. Do not gamble with money you cannot afford to lose.
           </p>
-          
+
           <p className="text-xs text-gray-400">
             &copy; {new Date().getFullYear()} euluckigiro.eu. All Rights Reserved.
           </p>
