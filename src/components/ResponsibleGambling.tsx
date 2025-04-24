@@ -15,7 +15,7 @@ const ResponsibleGambling = () => {
             <img src="/images/compliance/gordon-moody.png" alt="Gordon Moody" className="h-14 w-auto" />
           </a>
           <a href="https://www.gbga.gi/" target="_blank" rel="noopener noreferrer">
-            <img src="/images/compliance/GBGA.png" alt="GBGA" className="h-14 w-auto" />
+            <img src="/images/compliance/gbga.png" alt="GBGA" className="h-14 w-auto" />
           </a>
           <a href="https://ibas-uk.com/" target="_blank" rel="noopener noreferrer">
             <img src="/images/compliance/ibas.png" alt="IBAS" className="h-14 w-auto" />
