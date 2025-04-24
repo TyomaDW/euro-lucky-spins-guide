@@ -6,7 +6,7 @@ const ResponsibleGambling = () => {
     <section className="py-16 bg-casinoDark-tertiary">
       <div className="container mx-auto px-4">
         <h3 className="text-2xl font-bold text-center text-white mb-8">Play Safely & Responsibly</h3>
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-6 items-center justify-items-center">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-6 items-center justify-items-center">
           <a href="https://www.gambleaware.org/home/" target="_blank" rel="noopener noreferrer">
             <img src="https://slotdomempire.eu/lovable-uploads/f667e2a6-579c-4a35-b893-aae13512a4b2.png" alt="GambleAware" className="h-12 w-auto" />
           </a>
