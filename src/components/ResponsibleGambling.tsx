@@ -24,7 +24,7 @@ const ResponsibleGambling = () => {
             <img src="/images/compliance/gamcare.png" alt="GamCare" className="h-12 w-auto" />
           </a>
           <a href="https://www.gamblingcommission.gov.uk/" target="_blank" rel="noopener noreferrer">
-            <img src="/images/compliance/gambling-commission.png" alt="Gambling Commission" className="h-12 w-auto" />
+            <img src="https://slotdomempire.eu/lovable-uploads/b733b72a-5d80-40c0-aa7f-d611dcff9927.png" alt="Gambling Commission" className="h-12 w-auto" />
           </a>
         </div>
       </div>
